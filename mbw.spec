@@ -9,6 +9,7 @@ Release: %release
 License: LGPL
 Source: %{name}.tar.bz2
 Group: System/Kernel and hardware
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:http://freshmeat.net/redir/mbw/64534/url_homepage/mbw
 
 %description
