@@ -1,6 +1,6 @@
 %define name mbw
 %define version 1.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Memory bandwidth benchmark
 Name: %name
