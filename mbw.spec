@@ -36,4 +36,27 @@ rm -rf %{buildroot}
 %{_bindir}/mbw
 %doc %{_mandir}/man1/mbw.1*
 
+
+
 %changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1-5mdv2011.0
++ Revision: 620307
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.1-4mdv2010.0
++ Revision: 430003
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.1-3mdv2009.0
++ Revision: 252136
+- rebuild
+
+* Thu Feb 14 2008 Thierry Vignaud <tv@mandriva.org> 1.1-1mdv2008.1
++ Revision: 168107
+- fix no-buildroot-tag
+- kill re-definition of %%buildroot on Pixel's request
+
+* Fri May 04 2007 Erwan Velu <erwan@mandriva.org> 1.1-1mdv2008.0
++ Revision: 22498
+- Import mbw
+
