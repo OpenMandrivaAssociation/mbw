@@ -4,7 +4,7 @@
 
 Summary: Memory bandwidth benchmark
 Name: %name
-Version: %version
+Version:	1.2.2
 Release:	1
 License: LGPL
 Source: %{name}.tar.bz2
