@@ -12,6 +12,7 @@ Group: System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:https://freshmeat.net/redir/mbw/64534/url_homepage/mbw
 
+BuildRequires:	make
 %description
 Test memory copy bandwidth (single thread).
 Switch off swap or make sure array size does not exceed available free RAM.
